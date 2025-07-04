@@ -30,5 +30,16 @@ bne_op      =   7'b1100011,     bne_f3  =   3'b001,
 blt_op      =   7'b1100011,     blt_f3  =   3'b100,
 bge_op      =   7'b1100011,     bge_f3  =   3'b101,
 jalr_op     =   7'b1100111,     jalr_f3 =   3'b000,
-jal_op      =   7'b1101111 
+jal_op      =   7'b1101111,
 
+//ALU operations
+add_    = 4'b0001,
+sub_    = 4'b0010,
+and_    = 4'b0011,
+or_     = 4'b0100,
+sll_    = 4'b0101,
+srl_    = 4'b0110,
+xor_    = 4'b0111,
+slt_    = 4'b1000,
+jal_    = 4'b1001,
+lui_    = 4'b1010

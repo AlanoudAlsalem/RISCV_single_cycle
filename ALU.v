@@ -1,3 +1,7 @@
+/*
+ * Function:    processes the inputs and produces the result based on the opration
+ * Logic:       combinational
+ */
 module alu #(
     `include "parameters.vh"
 )(

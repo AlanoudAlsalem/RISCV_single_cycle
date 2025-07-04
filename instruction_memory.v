@@ -1,3 +1,7 @@
+/*
+ * Function:    instruction memory - stores the program instructions
+ * Logic:       combinational
+ */
 module instruction_memory(
     input [31:0] instructionAddress, // 32-bit instruction address (PC)
     output [31:0] instruction // 32-bit instruction
